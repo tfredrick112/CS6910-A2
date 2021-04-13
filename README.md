@@ -8,7 +8,9 @@
 pip install -r requirements.txt
 `
 
-2. To train a custom CNN model for image classification on the inaturalist dataset from scratch for Part A of the assignment, use the notebook: **Assignment_2_Part_A.ipynb**.
+2. **IMPORTANT: To Check code correctness use the notebooks Assignment_2_Part_A_NO_WANDB.ipynb and Guided_Backpropagation_NO_WANDB.ipynb for part A and Assignment_2_CS6910_Part_B_no_wandb.ipynb ONLY**.
+
+3. To train a custom CNN model for image classification on the inaturalist dataset from scratch for Part A of the assignment, use the notebook: **Assignment_2_Part_A.ipynb**.
 
    a.  In this notebook, to train using the best values for hyperparameters obtained from our use of the wandb sweeps functionality, do not run cells in the section titled "Hyperparameter Search using WandB". Run all the other cells of the notebook up to just before the section titled "Additional Tasks" to train the model. The final model will be trained on the full training set and evaluation is done on the test set.
    
@@ -17,9 +19,8 @@ pip install -r requirements.txt
    c. The additional tasks such as visualizing the filters in the first layer, the results of guided backpropagation, sample images with predictions from the test set, run the cells in the "Additional Tasks" section.
    
    d. Please note that for guided backpropagation, we have used Tensorflow V1, therefore restart the runtime before running that section.
-   
-   
-3. To train a neural network model for image classification on the inaturalist dataset using a pretrained model for Part B, use the notebook: **Assignment_2_CS6910_Part_B.ipynb**. Follow the instructions in the above point (a and b).
+  
+4. To train a neural network model for image classification on the inaturalist dataset using a pretrained model for Part B, use the notebook: **Assignment_2_CS6910_Part_B.ipynb**. Follow the instructions in the above point (a and b).
 
 Note: Wherever you need to log to wandb, please remember to change the name of the entity and project in the corresponding line of code.
 
