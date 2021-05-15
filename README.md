@@ -100,4 +100,4 @@ train_validate_test_model(train_batch_size, pre_train_model, data_aug, activatio
 `
 train_validate_model_wandb()
 `
-: Trains, validates the model on the data and logs the accuracies and losses into wandb.
+: Trains and validates the model on the data and logs the accuracies and losses into wandb.
